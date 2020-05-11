@@ -21,5 +21,11 @@
   "summary_proj_to_labels": true,
   "summary_type": "cls_index",
   "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
   "vocab_size": 50257
 }
